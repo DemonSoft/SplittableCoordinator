@@ -14,7 +14,7 @@ struct ContentView: View {
             NavigationStack(path: $model.path) {
                 
                 
-                DummyView("Select screen")
+                DummyView("Select screen", .white)
 
                 Group {}
                     .navigationDestination(for: CoordinatorService.Step.self) { destination in

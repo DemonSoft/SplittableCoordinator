@@ -14,9 +14,9 @@ enum CoordinatorB: String {
         Group {
             let title = "Coordinator B, screen: \(self.rawValue)."
             switch self {
-                case .a: DummyView(title)
-                case .b: DummyView(title)
-                case .c: DummyView(title)
+                case .a: DummyView(title, .orange)
+                case .b: DummyView(title, .purple)
+                case .c: DummyView(title, .brown)
             }
         }
     }
